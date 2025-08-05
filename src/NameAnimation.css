@@ -1,0 +1,20 @@
+/* src/NameAnimation.css */
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #000000, #0a0f29);
+  overflow: hidden;
+}
+
+.letter {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 5rem;
+  color: #00fff7;
+  margin: 0 0.1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  user-select: none;
+}
